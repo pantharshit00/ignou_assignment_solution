@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void main()
+int main()
 {
   int n;
   printf("Enter the binary number\n");
@@ -16,4 +16,5 @@ void main()
   }
 
   printf("%d in decimal = %d", n, d);
+  return 0;
 }
